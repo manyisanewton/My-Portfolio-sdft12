@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+h1{
+    color: chartreuse;
+    font-size: 60px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-size: 40px;
+}
+
+#home {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding:20px;
+    text-align: left;
+    margin: 0px;
+    
+
+}
+
+#home img {
+    width: 400px;
+    border-radius: 100%;
+    margin-top:0px;
+    display: right;
+    margin-right: 60px;
+    margin-left: 300px;
+
+}
+
+#projects .project-card {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(122, 32, 32, 0.1);
+    padding: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 750px;
+    text-align: left;
+    color: crimson;
+}
+
+#projects img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.navbar {
+    background-color: #007bff; /* Change color as needed */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 20px;
+    height: 100vh; /* Full-screen sections */
+}
+
+#home {
+    background-color: #310606;
+}
+
+#about {
+    background-color: #e9ecef;
+}
+#skills{
+    background-color: rgb(46, 240, 126);
+}
+
+#projects {
+    background-color: #62a4e7;
+}
+.facebook-icon {
+    font-size: 24px;        /* Adjust icon size */
+    color: #4267B2;         /* Facebook blue color */
+    text-decoration: none;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+
+  }
+  
+  .facebook-icon:hover {
+    transform: scale(1.2);  /* Icon enlarges on hover */
+
+  }
+
+  .twitter-icon {
+    font-size: 24px;        /* Adjust icon size */
+    color: #1DA1F2;         /* Twitter blue color */
+    text-decoration: none;
+    margin: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .twitter-icon:hover {
+    transform: scale(1.2);  /* Icon enlarges on hover */
+    color: #0d8ddb;         /* Slightly darker blue on hover */
+  }
+  body {
+    display: block;
+    justify-content: flex-start;  /* Align content to the left */
+    align-items: center;          /* Vertically center the content */
+    height: 100vh;
+    background-color: #e1e99c;    /* Adjust background color if needed */
+    padding-left: 20px;           /* Optional: Adds some padding on the left */
+  }
+  
+  .content {
+    text-align: left;             /* Align text to the left */
+    max-width: 600px;             /* Optional: Restrict content width */
+  }
+    
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+}
